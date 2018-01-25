@@ -1,4 +1,4 @@
-* {
+ * {
   font-family: Open Sans;
 }
 
@@ -10,6 +10,8 @@
 .header {
   display: flex;
   padding-top: 15px;
+  color: #000;
+  font-weight: bold;
 }
 
 body {
@@ -19,6 +21,8 @@ body {
 .nav {
   margin-bottom: 100px;
   display: flex;
+  color: #69696a;
+  font-weight: bold;
 }
 
 a {
@@ -28,9 +32,11 @@ a {
 }
 
 .hireus, .scroll {
-  color: white;
+  /* color: white; */
   background-color: black;
   border-radius: 25px;
+  color: #f9fafc;
+  padding: 5px 15px 5px 15px; 
 }
 
 
@@ -50,14 +56,14 @@ a {
 
 .circles {
   position: relative;
-  width: 50%;
+  width: 35%;
   height: 300px;
 }
 
 
 .circle1 {
-  height: 200px;
-  width: 200px;
+  height: 250px;
+  width: 250px;
   background-color: rgba(247, 136, 167, 0.6);
   border-radius: 50%;
   position: absolute;
@@ -70,8 +76,8 @@ a {
   background-color: rgba(247,193,162,0.7);
   border-radius: 50%;
   position: absolute;
-  margin-left:125px;
-  margin-top: 100px;
+  margin-left:175px;
+  margin-top: 150px;
 }
 
 .circle3 {
@@ -80,8 +86,8 @@ a {
   background-color: rgba(207,130,213,0.6);
   border-radius: 50%;
   position: absolute;
-  margin-left: 160px;
-  margin-top: 30px;
+  margin-left: 200px;
+  margin-top: 75px;
 }
 
 .info {
@@ -91,5 +97,5 @@ a {
 }
 
 .writing {
-  width: 50%;
+  width: 65%;
 }
